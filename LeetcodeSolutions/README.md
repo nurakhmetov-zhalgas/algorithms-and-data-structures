@@ -10,3 +10,4 @@
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Решение](./387.py)  |                                                                                            |
 | [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)               | [Решение](./417.py)  | [Разбор](https://medium.com/@nurakhmetov997/pacific-atlantic-water-flow-6c57fb0ff77d)      |
 | [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)      | [Решение](./1448.py) | [Разбор](https://medium.com/@nurakhmetov997/count-good-nodes-in-binary-tree-51d9b460fe54)  |
+| [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | [Решение](./1493.py) | [Разбор](https://medium.com/@nurakhmetov997/longest-subarray-of-1s-after-deleting-one-element-b748ff83280) |
