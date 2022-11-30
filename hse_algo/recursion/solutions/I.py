@@ -1,17 +1,17 @@
-# from itertools import permutations
+from itertools import permutations
 
-# # Brute Force
-# n, t = map(int, input().split())
-# count = 0
-# for perm in permutations(range(1, n + 1)):
-#     if count == t:
-#         break
-#     if all((index + 1) != value for index, value in enumerate(perm)):
-#         print(*perm)
-#         count += 1
+# Brute Force (TL)
+n, t = map(int, input().split())
+count = 0
+for perm in permutations(range(1, n + 1)):
+    if count == t:
+        break
+    if all((index + 1) != value for index, value in enumerate(perm)):
+        print(*perm)
+        count += 1
 
 
-# Using Generator
+# Using Generator (OK)
 def get_next_derangement(lst):
     queue = [-1]
     lenlst = len(lst)
